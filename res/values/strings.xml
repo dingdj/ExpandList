@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ExpandList</string>
+    <string name="expandable_list_sample_action">sample action</string>
+</resources>
