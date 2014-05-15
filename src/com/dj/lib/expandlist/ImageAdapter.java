@@ -6,6 +6,7 @@
 package com.dj.lib.expandlist;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -60,7 +61,8 @@ public class ImageAdapter extends BaseAdapter {
 			// set image based on selected text
 			TextView textView = (TextView) gridView
 					.findViewById(R.id.grid_item_text);
-
+			textView.setBackgroundColor(Color.argb(255, ColorSelect.colors[position][0], ColorSelect.colors[position][1],
+					ColorSelect.colors[position][2]));
 			textView.setText(mThumbIds[position]);
 
 		} else {

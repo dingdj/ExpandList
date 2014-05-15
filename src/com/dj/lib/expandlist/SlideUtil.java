@@ -56,7 +56,6 @@ public class SlideUtil {
             case MotionEvent.ACTION_UP:
                 mVelocityTracker.computeCurrentVelocity(1000, mMaximumVelocity);
                 int velocityX = (int) mVelocityTracker.getXVelocity();
-                Log.e("SlideUtil", velocityX+"");
                 if(velocityX > SNAP_VELOCITY){
                     return SLIDERIGHT;
                 }else if(velocityX < -SNAP_VELOCITY){
