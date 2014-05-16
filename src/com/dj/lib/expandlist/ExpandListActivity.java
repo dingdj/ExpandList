@@ -24,6 +24,7 @@ import android.widget.BaseExpandableListAdapter;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.ExpandableListContextMenuInfo;
+import android.widget.ExpandableListView.OnGroupExpandListener;
 import android.widget.GridView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -45,9 +46,12 @@ public class ExpandListActivity extends ExpandableListActivity{
         // Set up our adapter
         mAdapter = new MyExpandableListAdapter();
         setListAdapter(mAdapter);
-        registerForContextMenu(getExpandableListView());
+        //registerForContextMenu(getExpandableListView());
         layoutInflater = this.getLayoutInflater();
-        getExpandableListView().setOnTouchListener(new View.OnTouchListener(){
+        ExpandableListView expView = getExpandableListView();
+        
+        
+        expView.setOnTouchListener(new View.OnTouchListener(){
 
 			@Override
 			public boolean onTouch(View v, MotionEvent event) {
@@ -57,9 +61,42 @@ public class ExpandListActivity extends ExpandableListActivity{
         	
         });
         
+        expView.setOnGroupExpandListener(new OnGroupExpandListener() {
+
+			@Override
+			public void onGroupExpand(int groupPosition) {
+				// TODO Auto-generated method stub
+				for (int i = 0; i < mAdapter.getGroupCount(); i++) {
+					if (groupPosition != i) {
+						getExpandableListView().collapseGroup(i);
+					}
+				}
+
+			}
+
+		});
+        
+        /*expView.setGroupIndicator(null);
+        expView.setChildIndicator(null);
+        expView.setChildDivider(getResources().getDrawable(R.color.greywhite));        
+        expView.setDivider(getResources().getDrawable(R.color.white));*/
+        expView.setDividerHeight(1);
+        
     }
+    
+    
+    
 
     @Override
+	protected void onResume() {
+		super.onResume();
+		//getExpandableListView().expandGroup(0);
+	}
+
+
+
+
+	@Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenuInfo menuInfo) {
         menu.setHeaderTitle("Sample menu");
         menu.add(0, 0, 0, R.string.expandable_list_sample_action);
@@ -94,17 +131,9 @@ public class ExpandListActivity extends ExpandableListActivity{
      *
      */
     public class MyExpandableListAdapter extends BaseExpandableListAdapter {
-        // Sample data set.  children[i] contains the children (String[]) for groups[i].
-        private String[] groups = { "People Names", "Dog Names", "Cat Names", "Fish Names" };
-        private String[][] children = {
-                { "Arnold", "Barry", "Chuck", "David" },
-                { "Ace", "Bandit", "Cha-Cha", "Deuce" },
-                { "Fluffy", "Snuggles" },
-                { "Goldy", "Bubbles" }
-        };
         
         public Object getChild(int groupPosition, int childPosition) {
-            return children[groupPosition];
+            return CommonData.defaultNavTitle[groupPosition];
         }
 
         public long getChildId(int groupPosition, int childPosition) {
@@ -129,6 +158,7 @@ public class ExpandListActivity extends ExpandableListActivity{
             // Set the text alignment
             int myGravity = 0;
             myGravity |= Gravity.CENTER;
+            textView.setTextSize(20);
             textView.setGravity(myGravity);
             return textView;
         }
@@ -136,16 +166,17 @@ public class ExpandListActivity extends ExpandableListActivity{
         public View getChildView(int groupPosition, int childPosition, boolean isLastChild,
                 View convertView, ViewGroup parent) {
         	GridView gridView = (GridView) layoutInflater.inflate(R.layout.gridview, null);
-        	gridView.setAdapter(new ImageAdapter(ExpandListActivity.this, children[groupPosition]));
+        	gridView.setAdapter(new ImageAdapter(ExpandListActivity.this, CommonData.defaultNavTitle[groupPosition],
+        			CommonData.defaultNavUrl[groupPosition]));
             return gridView;
         }
 
         public Object getGroup(int groupPosition) {
-            return groups[groupPosition];
+            return CommonData.defaultNavCategory[groupPosition];
         }
 
         public int getGroupCount() {
-            return groups.length;
+            return CommonData.defaultNavCategory.length;
         }
 
         public long getGroupId(int groupPosition) {
@@ -184,5 +215,7 @@ public class ExpandListActivity extends ExpandableListActivity{
 		}
 		return super.onTouchEvent(event);
 	}
+    
+    
 
 }

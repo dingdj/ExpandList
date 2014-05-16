@@ -28,7 +28,7 @@ public class SlideUtil {
 	
 	private int mMaximumVelocity;
 	
-	public static final int SNAP_VELOCITY = 300;
+	public static final int SNAP_VELOCITY = 800;
 	
 	private static SlideUtil instance;
 	
