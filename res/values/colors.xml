@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="child_girdview_item_text">#ff333333</color>
+    <color name="group_item_text">#ff7e7e7e</color>
+    <color name="child_gridview_septal_line">#ffcccccc</color>
+</resources>    

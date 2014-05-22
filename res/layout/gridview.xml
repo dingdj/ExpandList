@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.dj.lib.expandlist.MyGridView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/grid_view"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:numColumns="auto_fit"
-    android:columnWidth="90dp"
-    android:horizontalSpacing="10dp"
-    android:verticalSpacing="10dp"
-    android:gravity="center"
-    android:stretchMode="columnWidth" >
-
-</com.dj.lib.expandlist.MyGridView>
+<com.dj.lib.expandlist.ExpandGridView android:id="@+id/rc_child_gridview" 
+    android:background="@drawable/rc_children_layout_bg" 
+    android:paddingBottom="-3.0dip" 
+    android:fadingEdge="none" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:listSelector="@drawable/default_button" 
+    android:stretchMode="columnWidth" 
+    android:numColumns="5"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

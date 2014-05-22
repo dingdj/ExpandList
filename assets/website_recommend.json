@@ -1,0 +1,758 @@
+[
+    {
+        "position": "0",
+        "category": "热门名站",
+        "data": [
+            {
+                "position": "0",
+                "name": "百度",
+                "color": "",
+                "url": "http://m.baidu.com/?from=1505j"
+            },
+            {
+                "position": "1",
+                "name": "新浪",
+                "color": "",
+                "url": "http://3g.sina.com.cn"
+            },
+            {
+                "position": "2",
+                "name": "网易",
+                "color": "",
+                "url": "http://3g.163.com/"
+            },
+            {
+                "position": "3",
+                "name": "搜狐",
+                "color": "#F18C15",
+                "url": "http://m.sohu.com/?_trans_=000012_lx_sy"
+            },
+            {
+                "position": "4",
+                "name": "腾讯",
+                "color": "",
+                "url": "http://3g.qq.com"
+            },
+            {
+                "position": "5",
+                "name": "优酷",
+                "color": "#006CD1",
+                "url": "http://m.youku.com/smartphone/?copid=5gk46nru0rp7epmlkkvlna6d8"
+            },
+            {
+                "position": "6",
+                "name": "凤凰网",
+                "color": "",
+                "url": "http://i.ifeng.com/?ch=zd_lx_dh"
+            },
+            {
+                "position": "7",
+                "name": "天猫",
+                "color": "#F18C15",
+                "url": "http://m.tmall.com/?*ttid=momo_mZPluS67bpMF_QCNOwhsaA*referpid=mm_31205575_3333917_10817440"
+            },
+            {
+                "position": "8",
+                "name": "京东",
+                "color": "",
+                "url": "http://m.360buy.com"
+            },
+            {
+                "position": "9",
+                "name": "当当",
+                "color": "",
+                "url": "http://m.dangdang.com"
+            },
+            {
+                "position": "10",
+                "name": "拍拍",
+                "color": "",
+                "url": "http://m.paipai.com"
+            },
+            {
+                "position": "11",
+                "name": "淘宝HOT",
+                "color": "",
+                "url": "http://hao.lenovo.com/zt_gouwu.php"
+            },
+            {
+                "position": "12",
+                "name": "红袖",
+                "color": "",
+                "url": "http://wap.hongxiu.com/?siteid=12"
+            },
+            {
+                "position": "13",
+                "name": "铃声",
+                "color": "",
+                "url": "http://rt.a8music.net/msrt/h.do?p=c21"
+            },
+            {
+                "position": "14",
+                "name": "美团",
+                "color": "",
+                "url": "http://r.union.meituan.com/url/visit/?a=1*key=Poi2ab8kQ5BwxARET0Xh1HqIfDnv3Gt4*url=http://i.meituan.com"
+            },
+            {
+                "position": "15",
+                "name": "车天下",
+                "color": "",
+                "url": "http://i.mediapower.mobi/customer/index.jsp?cid=188"
+            },
+            {
+                "position": "16",
+                "name": "当乐",
+                "color": "#006CD1",
+                "url": "http://x.d.cn/?faadi=10idea123*entry=1"
+            },
+            {
+                "position": "17",
+                "name": "多泡",
+                "color": "",
+                "url": "http://www.duopao.com/"
+            },
+            {
+                "position": "18",
+                "name": "中彩票",
+                "color": "",
+                "url": "http://wap.zch168.com/main?sid=LM20120718220"
+            },
+            {
+                "position": "19",
+                "name": "3G门户",
+                "color": "",
+                "url": "http://xuan.3g.cn/index.php?fr=lenovoindex"
+            }
+        ]
+    },
+    {
+        "position": "1",
+        "category": "资讯阅读",
+        "data": [
+            {
+                "position": "0",
+                "name": "新浪",
+                "color": "",
+                "url": "http://sports.sina.cn"
+            },
+            {
+                "position": "1",
+                "name": "搜狐",
+                "color": "#F18C15",
+                "url": "http://m.sohu.com/c/3/?_ trans_=000012_lx_ty"
+            },
+            {
+                "position": "2",
+                "name": "网易",
+                "color": "",
+                "url": "http://3g.163.com/news/special/00010360/junshiindex.html"
+            },
+            {
+                "position": "3",
+                "name": "人民",
+                "color": "",
+                "url": "http://wap.people.com.cn/"
+            },
+            {
+                "position": "4",
+                "name": "凤凰",
+                "color": "",
+                "url": "http://i.ifeng.com/?ch=zd_lx_dh"
+            },
+            {
+                "position": "5",
+                "name": "环球",
+                "color": "",
+                "url": "http://m.huanqiu.com"
+            },
+            {
+                "position": "6",
+                "name": "央视",
+                "color": "",
+                "url": "http://wap.cntv.cn"
+            },
+            {
+                "position": "7",
+                "name": "和讯",
+                "color": "",
+                "url": "http://wap.hexun.com/"
+            },
+            {
+                "position": "8",
+                "name": "起点",
+                "color": "#006CD1",
+                "url": "http://qidian.cn/linkIn.jsp?id=lian01"
+            },
+            {
+                "position": "9",
+                "name": "看书",
+                "color": "#F18C15",
+                "url": "http://www.08060.com.cn/access/index.php?ht=2000145*ptype=1000"
+            },
+            {
+                "position": "10",
+                "name": "掌阅",
+                "color": "",
+                "url": "http://wap.ireader.com/qd.php?f=lx_01"
+            },
+            {
+                "position": "11",
+                "name": "书香屋",
+                "color": "#006CD1",
+                "url": "http://nnss.cc/link/a.asp?idea123"
+            },
+            {
+                "position": "12",
+                "name": "NBA",
+                "color": "",
+                "url": "http://nba.sina.cn/?sid=101*pos=10*vt=4"
+            },
+            {
+                "position": "13",
+                "name": "3G",
+                "color": "",
+                "url": "http://sports.3g.cn/sport3g.aspx"
+            },
+            {
+                "position": "14",
+                "name": "铁血",
+                "color": "",
+                "url": "http://m.tiexue.net"
+            },
+            {
+                "position": "15",
+                "name": "国防部",
+                "color": "",
+                "url": "http://wap.mod.gov.cn/"
+            },
+            {
+                "position": "16",
+                "name": "金融界",
+                "color": "",
+                "url": "http://m.jrj.com.cn/"
+            },
+            {
+                "position": "17",
+                "name": "益盟",
+                "color": "",
+                "url": "http://wap.emoney.cn"
+            },
+            {
+                "position": "18",
+                "name": "东方",
+                "color": "",
+                "url": "http://wap.eastmoney.com/"
+            },
+            {
+                "position": "19",
+                "name": "证券之星",
+                "color": "",
+                "url": "http://wap.stockstar.com/"
+            }
+        ]
+    },
+    {
+        "position": "2",
+        "category": "生活购物",
+        "data": [
+            {
+                "position": "0",
+                "name": "京东",
+                "color": "",
+                "url": "http://m.360buy.com"
+            },
+            {
+                "position": "1",
+                "name": "亚马逊",
+                "color": "",
+                "url": "http://www.amazon.cn/gp/aw/?_encoding=UTF8*tag=idea123cn-23"
+            },
+            {
+                "position": "2",
+                "name": "天猫",
+                "color": "#F18C15",
+                "url": "http://m.tmall.com/?*ttid=momo_mZPluS67bpMF_QCNOwhsaA*referpid=mm_31205575_3333917_10817440"
+            },
+            {
+                "position": "3",
+                "name": "淘宝网",
+                "color": "",
+                "url": "http://m.taobao.com?ttid=51slx001"
+            },
+            {
+                "position": "4",
+                "name": "赶集",
+                "color": "",
+                "url": "http://ganji.cn/?from=tg_lianxiang01_ganji2_shouye"
+            },
+            {
+                "position": "5",
+                "name": "58同城",
+                "color": "",
+                "url": "http://wap.58.com/"
+            },
+            {
+                "position": "6",
+                "name": "点评",
+                "color": "",
+                "url": "http://wap.dianping.com/"
+            },
+            {
+                "position": "7",
+                "name": "39健康",
+                "color": "",
+                "url": "http://3g.39.net/"
+            },
+            {
+                "position": "8",
+                "name": "3G福彩",
+                "color": "#006CD1",
+                "url": "http://gc.3g.cn/gcxuan/XuanIndex.html?exid=2030"
+            },
+            {
+                "position": "9",
+                "name": "万彩吧",
+                "color": "",
+                "url": "http://wcai8.com/index.php?id=9*lid=49"
+            },
+            {
+                "position": "10",
+                "name": "3G彩票",
+                "color": "",
+                "url": "http://caipiao.3g.cn/"
+            },
+            {
+                "position": "11",
+                "name": "中彩票",
+                "color": "",
+                "url": "http://wap.zch168.com/main?sid=LM20120718218"
+            },
+            {
+                "position": "12",
+                "name": "团800",
+                "color": "",
+                "url": "http://m.tuan800.com/?union=lenovowap*utm_source=A_lenovo*vt=8"
+            },
+            {
+                "position": "13",
+                "name": "聚划算",
+                "color": "",
+                "url": "http://ju.m.taobao.com/?ttid=52slx003"
+            },
+            {
+                "position": "14",
+                "name": "美团",
+                "color": "",
+                "url": "http://r.union.meituan.com/url/visit/?a=1*key=Poi2ab8kQ5BwxARET0Xh1HqIfDnv3Gt4*url=http://i.meituan.com"
+            },
+            {
+                "position": "15",
+                "name": "拉手网",
+                "color": "",
+                "url": "http://m.lashou.com/"
+            },
+            {
+                "position": "16",
+                "name": "携程",
+                "color": "",
+                "url": "http://m.ctrip.com/"
+            },
+            {
+                "position": "17",
+                "name": "去哪儿",
+                "color": "",
+                "url": "http://m.qunar.com/"
+            },
+            {
+                "position": "18",
+                "name": "途牛",
+                "color": "",
+                "url": "http://m.tuniu.com/"
+            },
+            {
+                "position": "19",
+                "name": "艺龙",
+                "color": "",
+                "url": "http://wap.elong.com/"
+            }
+        ]
+    },
+    {
+        "position": "3",
+        "category": "社区交友",
+        "data": [
+            {
+                "position": "0",
+                "name": "人人",
+                "color": "",
+                "url": "http://m.renren.com/"
+            },
+            {
+                "position": "1",
+                "name": "天涯",
+                "color": "",
+                "url": "http://wap.tianya.cn/ally?f=3148"
+            },
+            {
+                "position": "2",
+                "name": "猫扑",
+                "color": "",
+                "url": "http://3g.mop.com/"
+            },
+            {
+                "position": "3",
+                "name": "百度",
+                "color": "",
+                "url": "http://waphi.baidu.com/"
+            },
+            {
+                "position": "4",
+                "name": "世纪佳缘",
+                "color": "",
+                "url": "http://3g.jiayuan.com/"
+            },
+            {
+                "position": "5",
+                "name": "百合",
+                "color": "",
+                "url": "http://3g.baihe.com/index/"
+            },
+            {
+                "position": "6",
+                "name": "非诚勿扰",
+                "color": "",
+                "url": "http://wap.jstv.com/fcwr/"
+            },
+            {
+                "position": "7",
+                "name": "珍爱",
+                "color": "",
+                "url": "http://m.zhenai.com/"
+            },
+            {
+                "position": "8",
+                "name": "QQ空间",
+                "color": "",
+                "url": "http://z.qq.com/"
+            },
+            {
+                "position": "9",
+                "name": "开心网",
+                "color": "",
+                "url": "http://wap.kaixin001.com/"
+            },
+            {
+                "position": "10",
+                "name": "乐活吧",
+                "color": "",
+                "url": "http://chita.lenovomm.com/"
+            },
+            {
+                "position": "11",
+                "name": "豆瓣",
+                "color": "",
+                "url": "http://m.douban.com/"
+            },
+            {
+                "position": "12",
+                "name": "贴吧",
+                "color": "",
+                "url": "http://wapp.baidu.com/?lp=7200*uofr=1001500120904001"
+            },
+            {
+                "position": "13",
+                "name": "139社区",
+                "color": "",
+                "url": "http://wap.139.10086.cn/"
+            },
+            {
+                "position": "14",
+                "name": "乐讯",
+                "color": "",
+                "url": "http://clubc.lexun.com/community/index.aspx?pid=0*cd=0*lxt=c1016088276*vs=1"
+            },
+            {
+                "position": "15",
+                "name": "速配网",
+                "color": "",
+                "url": "http://m.supei.com/"
+            },
+            {
+                "position": "16",
+                "name": "有缘网",
+                "color": "",
+                "url": "http://lover2.com.cn/"
+            },
+            {
+                "position": "17",
+                "name": "奇遇网",
+                "color": "",
+                "url": "http://lover2.net/"
+            },
+            {
+                "position": "18",
+                "name": "19楼",
+                "color": "",
+                "url": "http://wap.19lou.com/"
+            },
+            {
+                "position": "19",
+                "name": "叨逗网",
+                "color": "",
+                "url": "http://wap.dao-dou.com/index.php"
+            }
+        ]
+    },
+    {
+        "position": "4",
+        "category": "影音娱乐",
+        "data": [
+            {
+                "position": "0",
+                "name": "当乐",
+                "color": "",
+                "url": "http://x.d.cn/?faadi=10idea123*entry=1"
+            },
+            {
+                "position": "1",
+                "name": "QQ游戏",
+                "color": "",
+                "url": "http://csg.3g.qq.com/g/"
+            },
+            {
+                "position": "2",
+                "name": "多泡",
+                "color": "",
+                "url": "http://www.duopao.com/"
+            },
+            {
+                "position": "3",
+                "name": "17173",
+                "color": "",
+                "url": "http://wap.17173.com/"
+            },
+            {
+                "position": "4",
+                "name": "搜狐",
+                "color": "#F18C15",
+                "url": "http://m.tv.sohu.com/?pvid=5e8ecdfd6cc11f21"
+            },
+            {
+                "position": "5",
+                "name": "优酷",
+                "color": "#006CD1",
+                "url": "http://m.youku.com/smartphone/?copid=5gk46nru0rp7epmlkkvlna6d8"
+            },
+            {
+                "position": "6",
+                "name": "土豆",
+                "color": "",
+                "url": "http://m.tudou.com"
+            },
+            {
+                "position": "7",
+                "name": "奇艺",
+                "color": "#006CD1",
+                "url": "http://m.iqiyi.com/?msrc=1_15_12"
+            },
+            {
+                "position": "8",
+                "name": "酷狗",
+                "color": "",
+                "url": "http://3g.kugou.com"
+            },
+            {
+                "position": "9",
+                "name": "3G",
+                "color": "",
+                "url": "http://mp3.3g.cn"
+            },
+            {
+                "position": "10",
+                "name": "天天",
+                "color": "",
+                "url": "http://m.ttpod.com"
+            },
+            {
+                "position": "11",
+                "name": "多米",
+                "color": "",
+                "url": "http://m.duomi.com"
+            },
+            {
+                "position": "12",
+                "name": "新浪星座",
+                "color": "",
+                "url": "http://3g.sina.com.cn/3g/ast/"
+            },
+            {
+                "position": "13",
+                "name": "阿启",
+                "color": "",
+                "url": "http://www.aqioo.cn/"
+            },
+            {
+                "position": "14",
+                "name": "爱漫画",
+                "color": "",
+                "url": "http://wap.2kk.mobi/"
+            },
+            {
+                "position": "15",
+                "name": "手机动漫",
+                "color": "",
+                "url": "http://wap.dm.10086.cn/portalone/XHTML/portalone.portal"
+            },
+            {
+                "position": "16",
+                "name": "糗百",
+                "color": "",
+                "url": "http://wap2.qiushibaike.com/"
+            },
+            {
+                "position": "17",
+                "name": "爆笑",
+                "color": "#006CD1",
+                "url": "http://m.kxin.cc"
+            },
+            {
+                "position": "18",
+                "name": "美图",
+                "color": "#006CD1",
+                "url": "http://moabc.cc/"
+            },
+            {
+                "position": "19",
+                "name": "铃声",
+                "color": "",
+                "url": "http://rt.a8music.net/msrt/h.do?p=c21"
+            }
+        ]
+    },
+    {
+        "position": "5",
+        "category": "综合资讯",
+        "data": [
+            {
+                "position": "0",
+                "name": "瑞丽",
+                "color": "",
+                "url": "http://3g.rayli.com.cn"
+            },
+            {
+                "position": "1",
+                "name": "蘑菇街",
+                "color": "",
+                "url": "http://m.mogujie.com"
+            },
+            {
+                "position": "2",
+                "name": "时尚",
+                "color": "#F18C15",
+                "url": "http://mobi.trends.com.cn"
+            },
+            {
+                "position": "3",
+                "name": "YOKA",
+                "color": "",
+                "url": "http://3g.yoka.com/"
+            },
+            {
+                "position": "4",
+                "name": "中经网",
+                "color": "",
+                "url": "http://wap.ce.cn/"
+            },
+            {
+                "position": "5",
+                "name": "易车",
+                "color": "",
+                "url": "http://m.bitauto.com/g/"
+            },
+            {
+                "position": "6",
+                "name": "爱卡",
+                "color": "",
+                "url": "http://wap.xcar.com.cn"
+            },
+            {
+                "position": "7",
+                "name": "腾讯",
+                "color": "",
+                "url": "http://info.3g.qq.com/g/s?aid=auto_h"
+            },
+            {
+                "position": "8",
+                "name": "聚美",
+                "color": "",
+                "url": "http://m.jumei.com/"
+            },
+            {
+                "position": "9",
+                "name": "百度知道",
+                "color": "",
+                "url": "http://wapiknow.baidu.com/"
+            },
+            {
+                "position": "10",
+                "name": "互动百科",
+                "color": "",
+                "url": "http://hudong.cn/home/hudong/?user=default"
+            },
+            {
+                "position": "11",
+                "name": "维基百科",
+                "color": "",
+                "url": "http://wapedia.mobi/"
+            },
+            {
+                "position": "12",
+                "name": "寻医问药",
+                "color": "",
+                "url": "http://wap.xywy.com/"
+            },
+            {
+                "position": "13",
+                "name": "百姓网",
+                "color": "",
+                "url": "http://baixing.com/m/"
+            },
+            {
+                "position": "14",
+                "name": "丁丁网",
+                "color": "",
+                "url": "http://m2.ddmap.com/"
+            },
+            {
+                "position": "15",
+                "name": "口碑网",
+                "color": "",
+                "url": "http://koubei.com/"
+            },
+            {
+                "position": "16",
+                "name": "饭统网",
+                "color": "",
+                "url": "http://wap.fantong.com/"
+            },
+            {
+                "position": "17",
+                "name": "搜房网",
+                "color": "",
+                "url": "http://wap.soufun.com/"
+            },
+            {
+                "position": "18",
+                "name": "新浪房产",
+                "color": "",
+                "url": "http://house.sina.cn/"
+            },
+            {
+                "position": "19",
+                "name": "58同城",
+                "color": "",
+                "url": "http://wap.58.com/"
+            }
+        ]
+    }
+]

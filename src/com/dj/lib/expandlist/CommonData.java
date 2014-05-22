@@ -22,9 +22,11 @@ public class CommonData {
 	/**
 	 * 本地缺省网址导航数据
 	 */
-	public static final String[] defaultNavCategory = { "[综合]", "[新闻]", "[小说]",
-			"[生活]", "[社交]", "[团购]", "[购物]", "[旅游]", "[体育]", "[视频]", "[音乐]",
-			"[便民]", "[查询]" };
+	public static final String[] defaultNavCategory = { "资讯阅读", "生活购物", "社区交友",
+			"影音娱乐", "综合资讯"};
+	
+	public static final String[] defaultNavCategoryDrawableName = { "ic_rc_yuedu", "ic_rc_gouwu", "ic_rc_shequ",
+		"ic_rc_yingyin", "ic_rc_zonghe"};
 
 	public static final String[][] defaultNavTitle = {
 			{ "游戏社区", "糗事百科", "新浪娱乐", "安卓网", "快乐麻花", "木棉女生网", "豆瓣", "周公解梦",
@@ -160,5 +162,21 @@ public class CommonData {
 			e.printStackTrace();
 		}
 	}
+	
+	/** 
+     * 根据手机的分辨率从 dp 的单位 转成为 px(像素) 
+     */  
+    public static int dip2px(Context context, float dpValue) {  
+        final float scale = context.getResources().getDisplayMetrics().density;  
+        return (int) (dpValue * scale + 0.5f);  
+    }  
+  
+    /** 
+     * 根据手机的分辨率从 px(像素) 的单位 转成为 dp 
+     */  
+    public static int px2dip(Context context, float pxValue) {  
+        final float scale = context.getResources().getDisplayMetrics().density;  
+        return (int) (pxValue / scale + 0.5f);  
+    }  
 
 }
