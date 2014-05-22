@@ -63,7 +63,7 @@ public class ImageAdapter extends BaseAdapter {
 			itemView = (View) convertView;
 		}
 
-		TextView textView = (TextView) itemView.findViewById(R.id.label);
+		TextView textView = (TextView) itemView.findViewById(R.id.dj_t90label);
 		textView.setText(localWebsiteRecommandData.getTitle());
 
 		String color = localWebsiteRecommandData.getColor();
