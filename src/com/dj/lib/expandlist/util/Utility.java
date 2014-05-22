@@ -47,8 +47,8 @@ public class Utility {
 	 */
 	public static List<Category> parseCategories(String paramString) {
 		ArrayList<Category> rtn = new ArrayList<Category>();
-		int[] resIds = { R.drawable.ic_rc_hot, R.drawable.ic_rc_yuedu, R.drawable.ic_rc_gouwu, R.drawable.ic_rc_shequ, R.drawable.ic_rc_yingyin,
-				R.drawable.ic_rc_zonghe };
+		int[] resIds = { R.drawable.dj_t90ic_rc_hot, R.drawable.dj_t90ic_rc_yuedu, R.drawable.dj_t90ic_rc_gouwu, R.drawable.dj_t90ic_rc_shequ, R.drawable.dj_t90ic_rc_yingyin,
+				R.drawable.dj_t90ic_rc_zonghe };
 
 		try {
 			JSONArray jsonArray = new JSONArray(paramString);

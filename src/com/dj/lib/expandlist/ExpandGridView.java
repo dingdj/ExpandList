@@ -63,14 +63,14 @@ public class ExpandGridView extends GridView {
 		this.lineWidth = 0.25F;
 		this.mPaint = new Paint(1);
 		this.mPaint.setStyle(Paint.Style.STROKE);
-		this.mPaint.setColor(getContext().getResources().getColor(R.color.child_gridview_septal_line));
+		this.mPaint.setColor(getContext().getResources().getColor(R.color.dj_t90child_gridview_septal_line));
 		this.mPaint.setStrokeWidth(this.lineWidth);
 		DashPathEffect localDashPathEffect = new DashPathEffect(new float[] { 2.0F, 2.0F }, 1.0F);
 		this.mPaint.setPathEffect(localDashPathEffect);
 		this.mPath = new Path();
 		this.mPaintLine = new Paint(1);
 		this.mPaintLine.setStyle(Paint.Style.STROKE);
-		this.mPaintLine.setColor(getContext().getResources().getColor(R.color.child_gridview_septal_line));
+		this.mPaintLine.setColor(getContext().getResources().getColor(R.color.dj_t90child_gridview_septal_line));
 		this.mPaintLine.setStrokeWidth(this.lineWidth);
 		this.mPathLine = new Path();
 	}

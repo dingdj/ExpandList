@@ -138,7 +138,7 @@ public class ExpandListActivity extends ExpandableListActivity {
 		}
 
 		public View getChildView(int groupPosition, int childPosition, boolean isLastChild, View convertView, ViewGroup parent) {
-			GridView gridView = (GridView) layoutInflater.inflate(R.layout.gridview, null);
+			GridView gridView = (GridView) layoutInflater.inflate(R.layout.dj_t90gridview, null);
 			Category category = getGroup(groupPosition);
 			gridView.setAdapter(new ImageAdapter(ExpandListActivity.this, category));
 			return gridView;
@@ -166,44 +166,44 @@ public class ExpandListActivity extends ExpandableListActivity {
 				holder.icon.setImageResource(category.mIconRes);
 				if (groupPosition == 0) {
 					holder.indicator.setVisibility(View.INVISIBLE);
-					holder.layout.setBackgroundResource(R.drawable.rc_list_group_item_press);
+					holder.layout.setBackgroundResource(R.drawable.dj_t90rc_list_group_item_press);
 					holder.title.setTextColor(Color.parseColor("#FFFFFF"));
 					convertView.setClickable(true);
 				} else {
 					holder.indicator.setVisibility(View.VISIBLE);
-					holder.layout.setBackgroundResource(R.drawable.rc_list_group_item_background);
+					holder.layout.setBackgroundResource(R.drawable.dj_t90rc_list_group_item_background);
 					if (isExpanded) {
-						holder.indicator.setImageResource(R.drawable.indicator_unfolded_status);
+						holder.indicator.setImageResource(R.drawable.dj_t90indicator_unfolded_status);
 					} else {
-						holder.indicator.setImageResource(R.drawable.indicator_folded_status);
+						holder.indicator.setImageResource(R.drawable.dj_t90indicator_folded_status);
 					}
 					convertView.setClickable(false);
-					holder.title.setTextColor(ExpandListActivity.this.getResources().getColor(R.color.recommand_group_iten_text_color));
+					holder.title.setTextColor(ExpandListActivity.this.getResources().getColor(R.color.dj_t90recommand_group_iten_text_color));
 				}
 				return convertView;
 			}
-			View view = layoutInflater.inflate(R.layout.rc_group_item, null);
+			View view = layoutInflater.inflate(R.layout.dj_t90rc_group_item, null);
 			ViewHolder viewHolder = new ViewHolder();
 			view.setTag(viewHolder);
-			ImageView imageView = (ImageView) view.findViewById(R.id.icon);
-			TextView textView = (TextView) view.findViewById(R.id.title);
-			ImageView indicatorView = (ImageView) view.findViewById(R.id.indicator);
-			View layout = (View) view.findViewById(R.id.layout);
+			ImageView imageView = (ImageView) view.findViewById(R.id.dj_t90icon);
+			TextView textView = (TextView) view.findViewById(R.id.dj_t90title);
+			ImageView indicatorView = (ImageView) view.findViewById(R.id.dj_t90indicator);
+			View layout = (View) view.findViewById(R.id.dj_t90layout);
 			if (groupPosition == 0) {
 				indicatorView.setVisibility(View.INVISIBLE);
-				layout.setBackgroundResource(R.drawable.rc_list_group_item_press);
+				layout.setBackgroundResource(R.drawable.dj_t90rc_list_group_item_press);
 				textView.setTextColor(Color.parseColor("#FFFFFF"));
 				view.setClickable(true);
 			} else {
 				indicatorView.setVisibility(View.VISIBLE);
-				layout.setBackgroundResource(R.drawable.rc_list_group_item_background);
+				layout.setBackgroundResource(R.drawable.dj_t90rc_list_group_item_background);
 				if (isExpanded) {
-					indicatorView.setImageResource(R.drawable.indicator_unfolded_status);
+					indicatorView.setImageResource(R.drawable.dj_t90indicator_unfolded_status);
 				} else {
-					indicatorView.setImageResource(R.drawable.indicator_folded_status);
+					indicatorView.setImageResource(R.drawable.dj_t90indicator_folded_status);
 				}
 				view.setClickable(false);
-				textView.setTextColor(ExpandListActivity.this.getResources().getColor(R.color.recommand_group_iten_text_color));
+				textView.setTextColor(ExpandListActivity.this.getResources().getColor(R.color.dj_t90recommand_group_iten_text_color));
 			}
 
 			textView.setText(category.getCategory());
@@ -241,7 +241,7 @@ public class ExpandListActivity extends ExpandableListActivity {
 			intent.setClass(ExpandListActivity.this, MainActivity.class);
 			intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 			startActivity(intent);
-			overridePendingTransition(R.anim.slideleftin, R.anim.sliderightout);
+			overridePendingTransition(R.anim.dj_t90slideleftin, R.anim.dj_t90sliderightout);
 		}
 		return super.dispatchTouchEvent(event);
 	}

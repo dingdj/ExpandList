@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main);
+		setContentView(R.layout.dj_t90main);
 	}
 
 	@Override
@@ -36,7 +36,7 @@ public class MainActivity extends Activity {
 			 intent.setClass(MainActivity.this, ExpandListActivity.class);
 			 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 			 startActivity(intent);
-			 overridePendingTransition(R.anim.sliderightin, R.anim.slideleftout);
+			 overridePendingTransition(R.anim.dj_t90sliderightin, R.anim.dj_t90slideleftout);
 		}
 		return super.onTouchEvent(event);
 	}

@@ -58,7 +58,7 @@ public class ImageAdapter extends BaseAdapter {
 		View itemView;
 		if (convertView == null) {
 			itemView = new View(context);
-			itemView = inflater.inflate(R.layout.item, null);
+			itemView = inflater.inflate(R.layout.dj_t90item, null);
 		} else {
 			itemView = (View) convertView;
 		}

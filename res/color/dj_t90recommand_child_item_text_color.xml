@@ -4,5 +4,5 @@
     <item android:state_enabled="false" android:color="#ffbbbbbb" />
     <item android:state_pressed="true" android:color="#ffffffff" />
     <item android:state_selected="true" android:color="#ffe9323c" />
-    <item android:color="@color/child_girdview_item_text" />
+    <item android:color="@color/dj_t90child_girdview_item_text" />
 </selector>
